@@ -7,12 +7,12 @@
 %define		pnam	WSDL
 Summary:	SOAP::WSDL - SOAP with WSDL support
 Name:		perl-SOAP-WSDL
-Version:	2.00.01
+Version:	2.00.10
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9296ece09358cf85e72e93705d2499b9
+# Source0-md5:	c3f97ffae56881be65907ee9b4efa222
 URL:		http://soap-wsdl.sourceforge.net/
 BuildRequires:	perl-Class-Std-Fast
 BuildRequires:	perl-Module-Build

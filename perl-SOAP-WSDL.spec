@@ -8,7 +8,7 @@
 Summary:	SOAP::WSDL - SOAP with WSDL support
 Name:		perl-SOAP-WSDL
 Version:	2.00.10
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,6 +24,8 @@ BuildRequires:	perl-modules
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq	perl(SOAP::WSDL::Header)
 
 %description
 SOAP::WSDL provides easy access to Web Services with WSDL

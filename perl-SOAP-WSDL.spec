@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	SOAP
 %define		pnam	WSDL
 Summary:	SOAP::WSDL - SOAP with WSDL support
